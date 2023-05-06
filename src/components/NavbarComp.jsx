@@ -5,30 +5,28 @@ import { Link } from 'react-router-dom';
 function NavbarComp() {
   return (
     <>
-      <Navbar bg="danger">
-        <Nav className="d-flex">
-          <Nav.Item>
-            <Link to="/" className="text-white ms-3 text-decoration-none">
-              <span>icon</span> Home
-            </Link>
-          </Nav.Item>
+      <Nav className="bg-danger d-flex p-3">
+        <Nav.Item className="">
+          <Link to="/" className="text-white fs-6 ms-4 text-decoration-none">
+            <span>icon</span> Home
+          </Link>
+        </Nav.Item>
 
-          <Nav.Item>
-            <Link
-              to="/contacto"
-              className="text-white ms-3 text-decoration-none"
-            >
-              <span>icon</span> Contacto
-            </Link>
-          </Nav.Item>
+        <Nav.Item className="">
+          <Link
+            to="/contacto"
+            className="text-white fs-6 ms-4 text-decoration-none"
+          >
+            <span>icon</span> Contacto
+          </Link>
+        </Nav.Item>
 
-          <Nav.Item>
-            <Link to="/" className="text-white ms-3 text-decoration-none">
-              Happy Cake <span>icon</span>
-            </Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar>
+        <Nav.Item className="ms-auto">
+          <Link to="/" className="text-white fs-5 me-5 text-decoration-none">
+            Happy Cake <span>icon</span>
+          </Link>
+        </Nav.Item>
+      </Nav>
     </>
   );
 }
