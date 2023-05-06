@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function NavbarComp() {
   return (
     <>
-      <Nav className="bg-danger d-flex p-3">
+      <Nav className="bg-danger d-flex p-3 align-items-center">
         <Nav.Item className="">
           <Link to="/" className="text-white fs-6 ms-4 text-decoration-none">
             <span>icon</span> Home
