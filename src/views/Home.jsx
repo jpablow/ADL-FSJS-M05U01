@@ -8,7 +8,9 @@ function Home() {
       <p className="mt-3 text-center fw-light">
         El lugar de los pasteles felices
       </p>
-      <div className="mt-3 text-center">icon</div>
+      <div className="text-center" id="cake">
+        🎂
+      </div>
     </>
   );
 }
